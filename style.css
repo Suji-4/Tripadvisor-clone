@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    position: sticky;
+    top:0%;
+    background-color: white;
+    width: 100%;
+}
+.section-title{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  align-items: center;
+}
+
+.section-desc{
+    display: flex;
+}
+
+.section-desc button{
+   padding: 10px;
+   border-radius: 20px;
+   border: none;
+   font-weight: bold;
+   background-color: white;
+   font-size: 16px;
+
+}
+ button:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.section-forum button:hover{
+    text-decoration:underline;
+}
+.section-inr{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.section-inr button{
+    padding: 10px;
+   border-radius: 20px;
+   border: none;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+  
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.section-signin button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+.main h1{
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        
+      }
+      .card{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        font-weight:600;
+        align-items: center;
+        font-size: larger;
+        
+      }
+      .card-1{
+        border-bottom: 2px solid black;
+        cursor: pointer;
+      }
+      .card-1:hover{
+        opacity: 0.5;
+      }
+      .card-2:hover{
+        cursor: pointer;
+        border-bottom: 2px solid black;
+        opacity: 0.5;
+      }
+      .search{
+        justify-content: center;
+        display: flex;
+        
+      }
+      .search-bar{
+        padding: 10px;
+        border-radius: 10px;
+        border: solid #E0E0E0 1px;
+        border-radius: 30px;
+        width: 60%;
+        display: flex;
+        background-color: transparent;
+        margin-top: 30px;
+        box-shadow:5px 3px 5px 3px lavender;
+        
+      }
+      .search-bar input{
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        background-color: transparent;
+        
+      }
+    .button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border: none;
+    
+      }
+      .button:hover{
+        background-color: lightgreen;
+        opacity: 0.5;
+      }
+      .search-bar input:focus{
+        outline: none;
+    }
+    
+      .img-container{
+        position: relative;
+      }
+      .img-container-1{
+        display: flex;
+        justify-content: center;
+      }
+.img-container-1 img{
+    width: 90%;
+    background-color: #D8D4FB;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-radius:20px ;
+}
+.description{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+.description button{
+    padding: 5px;
+    border-radius: 5x;
+    border:none ;
+    background-color: white;
+}
+
+.description-1{
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    font-size: 25px;
+    color:darkslateblue;
+}
+.description-2{
+    position: absolute;
+    top:350px;
+    left:160px
+}
+   .description-2 button{
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: darkslateblue;
+    border: none;
+   }
+   .box {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius:20px ;
+    display: flex;
+    position: relative;
+    background-color: bisque;
+    
+   }
+   .box img{
+    padding-left:15px;
+   }
+   
+   .box-inside input{
+    border: none;
+    background-color:blanchedalmond;
+   }
+      .box-inside button{
+        padding: 10px;
+        border-radius: 25px;
+        position: absolute;   
+        top: 1010px;
+        left:1150px
+      }
+      .box-inside input{
+        position: absolute;   
+        top: 920px;
+        left: 200px;
+      }
+      .box-inside h3{
+        position: absolute;   
+        top: 940px;
+        left: 200px;
+      }
+      .box-inside h4{
+        position: absolute;   
+        top: 965px;
+        left: 200px;
+      }
+      .box-inside p{
+        position: absolute;   
+        top: 990px;
+        left: 200px;
+      }
+      .images{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.images img{
+    padding-top:20px;
+    border-radius: 10px;
+}
+.para{
+    padding: 30px;
+}
+.para2{
+    padding: 30px;
+}
+.images2 img{
+    padding-top:20px;
+    border-radius: 10px;
+}
+.images2{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.para3{
+    padding: 30px;
+}
+.images3 img{
+    padding-top:20px;
+    border-radius: 10px;
+}
+.images3{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.images3-1{
+    position: relative;
+}
+.images3-1 p{
+    position: absolute;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    bottom: 5px;
+    left:10px
+}
+.images3-2{
+    position: relative;
+}
+.images3-2 p{
+    position: absolute;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:5px;
+    left:10px
+}
+.images3-3{
+    position: relative;
+}
+.images3-3 p{
+    position: absolute;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    bottom: 5px;
+    left:10px
+}
+.images3-4{
+    position: relative;
+}
+.images3-4 p{
+    position: absolute;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    bottom: 5px;
+    left:10px
+}
+.para4{
+    padding: 30px;
+}
+.images4 img{
+    padding-top:20px;
+    border-radius: 10px;
+}
+.images4{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.para4-1{
+    padding-top:20px ;
+    font-size: 20px;
+}
+.footer{
+    padding: 30px;
+    background-color: beige;
+    color: black;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__one p:hover{
+    text-decoration: underline;
+}
+.images6{
+    display: flex;
+    padding-top: 10px;
+}
+.images7{
+    position: relative;
+}
+.images7-1{
+    position: absolute;
+    left:1200px;
+}
+.images7-2{
+    position: absolute;
+    left: 1160px;
+}
+@media screen and (max-width:600px) {
+  .navbar{
+    width: 100%;
+  }
+  .img-container{
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+  .box-inside{
+    display: none;
+  }
+  .para4-1{
+    display: none;
+  }
+  
+}
+@media screen  and (max-width:800px){
+  .navbar{
+    width: 100%;
+  }
+  .img-container{
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+  .box-inside{
+    display: none;
+  }
+  .para4-1{
+    display: none;
+  }
+}
+
